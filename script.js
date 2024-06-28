@@ -46,5 +46,6 @@ btnRoll.addEventListener('click', function () {
 
 btnHold.addEventListener('click', function () {
   //1. Add current scort to active player total score
+  totalScores[actinePlayer] += currentScore;
   //2. If total score of active player >= 100? active player won, if not - switch active player
 });
